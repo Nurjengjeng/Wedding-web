@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story</title>
+    <link rel="stylesheet" href="story.css">
+</head>
+<body>
+    <div class="story">
+        <p>
+            <h1> <b> STORY </b></h1>
+            
+           <b>Firs Meeting</b>
+<br>2020 We met at a campus event. Although it was only brief,
+<br> we felt attracted to each other and wanted to get to know each other better.
+<br>Since then, we started to get closer.
+<br><b>Establishing a Relationship</b>
+<br>2022 We started dating and built a close relationship. We support each other and grow together, 
+<br>through various challenges and obstacles together.
+<br><b>Getting Married</b>
+<br>and this year 2024, We decided to tie the knot in marriage. In this loving and touching moment, 
+<br>we step into a new level of life, ready to face the future together with mutual love and support for each other.
+        </p>
+    </div>
+
+    <div class="gallery">
+        <b><p>Gallery</p></b>
+    </div>
+
+    <div class="box">
+        <div class="item"><img src="img/1.jpg" alt="gambar</div>
+        <div class="item">
+          <img src="foto1.jpeg" alt="gambar" />
+        </div>
+        <div class="item">
+          <img src="foto2.jpeg" alt="gambar" />
+        </div>
+        <div class="item">
+          <img src="foto3.jpeg" alt="gambar " />
+        </div>
+        <div class="item">
+          <img src="foto4.jpeg" alt="gambar " />
+        </div>
+        <div class="item">
+          <img src="foto5.jpeg" alt="gambar " />
+        </div>
+      </div>
+      <div class="buttons">
+        <span class="prev"></span>
+        <span class="next"></span>
+      </div>
+      <script>
+        let prev = document.querySelector(".prev");
+        let next = document.querySelector(".next");
+  
+        next.addEventListener("click", function () {
+          let items = document.querySelectorAll(".item");
+          document.querySelector(".box").appendChild(items[0]);
+        });
+        prev.addEventListener("click", function () {
+          let items = document.querySelectorAll(".item");
+          document.querySelector(".box").prepend(items[items.length - 1]);
+        });
+      </script>
+
+</body>
+</html>

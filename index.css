@@ -1,0 +1,209 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    line-height: 1.6;
+background-image: url(download.jpeg);
+background-size: cover;
+}
+.awalbgt
+{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    position: absolute;
+    font-size: 5em;
+    color: white;
+    font-style: italic;
+    top: 15%;
+    left: 38%;
+}
+.awallgi
+{
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    font-size: 5em;
+    color: white;
+    font-style: italic;
+    top: 30%;
+    left: 46.5%;
+}
+.awal
+{
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 23%;
+    font-weight: 200;
+    font-size: 1.3em;
+}
+.awaldua
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    color: black;
+    top: 58%;
+    left: 43%;
+    font-weight: 700;
+}
+.awaltiga
+{
+position: absolute;
+font-family: monospace;
+color: rgb(255, 254, 254);
+text-shadow: 5px;
+top: 65%;
+left: 32%;
+font-size: 1.3em;
+}
+.tombol a
+{  
+            position: absolute;
+            padding: 15px 20px;
+            border-radius: 25px;
+            color: black;
+            background-color: white; 
+            border-radius: 5px; 
+            cursor: pointer; 
+            font-size: 16px; 
+            top: 75%;
+            left: 44%;
+}
+a
+{
+    text-decoration: none; 
+    color: black;
+}
+.made
+{
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+    font-style: initial;
+    top: 80%;
+    left: 2%;
+    color: white;
+}
+
+.isisatu
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    position: absolute;
+    font-size: 1.5em;
+    top: 15%;
+    left: 10%;
+}
+.isidua
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-weight: 400;
+    position: absolute;
+    font-size: 1.2em;
+    top: 30%;
+    left: 15%;
+}
+.isitiga
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    position: absolute;
+    font-size: 3em;
+    top: 35%;
+    left: 10%;
+}
+.isiempat
+{
+    font-family: baskerville;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    position: absolute;
+    font-size: 3em;
+    top: 28%;
+    left: 53%;
+}
+.isilima
+{
+    content: "";
+            position: absolute;
+            right: 40%;
+            top: 55%;
+            transform: translateY(-50%);
+            width: 100px; 
+            height: 100px; 
+            border-radius: 20px;
+            background-color: rgb(255, 255, 255); 
+            border: 1px solid rgb(255, 255, 255);
+}
+.isienam
+{
+    content: "";
+            position: absolute;
+            right: 32%;
+            top: 55%;
+            transform: translateY(-50%);
+            width: 100px; 
+            height: 100px; 
+            border-radius: 20px;
+            background-color: rgb(255, 255, 255); 
+            border: 1px solid rgb(255, 255, 255);
+}
+.isitujuh
+{
+    content: "";
+            position: absolute;
+            right: 24%;
+            top: 55%;
+            transform: translateY(-50%);
+            width: 100px; 
+            height: 100px; 
+            border-radius: 20px;
+            background-color: rgb(255, 255, 255); 
+            border: 1px solid rgb(255, 255, 255);
+}
+.isilapan
+{
+    position: absolute;
+    font-size: 4em;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    top: 48%;
+    left: 54.4%;
+}
+.isisembilan
+{
+    position: absolute;
+    font-size: 4em;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    top: 48%;
+    right: 33.7%;
+}
+.isisepuluh
+{
+    position: absolute;
+    font-size: 2.5em;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    top: 51%;
+    right: 25%;
+}
+.tempat
+{
+    position: absolute;
+    padding: 15px 20px;
+    border-radius: 25px;
+    color: black;
+    background-color: white; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    top: 65%;
+    left: 60%;
+}
